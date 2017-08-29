@@ -1,0 +1,11 @@
+EXECUTABLE_NAME=ansible
+CONDA_PYTHON_VERSION=2.7
+CONDA_DEPENDENCIES=pip cryptography pycrypto git
+EXECUTABLES_TO_LINK=ansible ansible-playbook ansible-galaxy ansible-vault ansible-console ansible-doc ansible-pull
+EXTRA_EXECUTABLES=
+# deb
+DEB_DEPENDENCIES=curl build-essential git python-dev python-virtualenv libssl-dev libffi-dev
+# rpm
+RPM_DEPENDENCIES=epel-release wget git python-virtualenv openssl-devel gcc libffi-devel python-devel
+# pip requirements
+PIP_DEPENDENCIES=ansible
