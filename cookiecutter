@@ -1,10 +1,8 @@
-EXECUTABLE_NAME=cookiecutter
 CONDA_PYTHON_VERSION=2.7
 CONDA_DEPENDENCIES=
 EXECUTABLES_TO_LINK=cookiecutter
 EXTRA_EXECUTABLES=
 # deb
-#DEB_DEPENDENCIES=git python-virtualenv
 DEB_DEPENDENCIES=
 # rpm
 RPM_DEPENDENCIES=epel-release git python-virtualenv
