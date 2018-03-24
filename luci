@@ -3,7 +3,7 @@ CONDA_DEPENDENCIES=
 EXECUTABLES_TO_LINK=luci
 EXTRA_EXECUTABLES=
 # deb
-DEB_DEPENDENCIES=
+DEB_DEPENDENCIES=python-pip python-virtualenv
 # rpm
 RPM_DEPENDENCIES=epel-release git python-virtualenv
 # pip requirements

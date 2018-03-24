@@ -3,8 +3,8 @@ CONDA_DEPENDENCIES=
 EXECUTABLES_TO_LINK=cookiecutter
 EXTRA_EXECUTABLES=
 # deb
-DEB_DEPENDENCIES=
+DEB_DEPENDENCIES=python-pip python-virtualenv
 # rpm
-RPM_DEPENDENCIES=epel-release git python-virtualenv
+RPM_DEPENDENCIES=epel-release git python-pip python-virtualenv
 # pip requirements
 PIP_DEPENDENCIES=cookiecutter
