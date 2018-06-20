@@ -8,5 +8,5 @@ DEB_DEPENDENCIES=curl build-essential git python-dev python-pip python-virtualen
 # rpm
 RPM_DEPENDENCIES=wget git python-pip python-virtualenv openssl-devel gcc libffi-devel python-devel
 # pip requirements
-PIP_DEPENDENCIES=freckles
+PIP_DEPENDENCIES=frkl==0.1.0 nsbl==0.3.7 freckles==0.5.6
 ENV_NAME=freckles
